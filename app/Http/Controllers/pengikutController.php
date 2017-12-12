@@ -1,0 +1,1 @@
+<?php namespace App\Http\Controllers; use Illuminate\Http\Request; use App\pengikuts; class pengikutController extends Controller {public function tampil() {$pengikuts = pengikuts::all(); return view('pengikut',(['pengikuts'=>$pengikuts])); } }

@@ -1,0 +1,1 @@
+@inject('data', 'App\Http\Controllers\WebController') <aside class="sidebar"> @foreach($data->DataSidebar() as $i => $side) {!! $side !!} @endforeach </aside>

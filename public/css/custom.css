@@ -1,0 +1,29 @@
+/* Add here all your CSS customizations */
+
+.gmaps iframe{
+    pointer-events: none;
+}
+
+#berita {
+	width: auto;
+	height: 150px;
+}
+
+#beritafoto {
+	width: auto;
+	height: 300px;
+}
+
+.tabel-kecamatan thead, th{
+	text-align: center;
+	vertical-align: center;
+	background-color:green;
+	color: white;
+}
+
+.tabel-kecamatan tbody, tr,td{
+	text-align: center;
+	vertical-align: center;
+	color: black;
+	font-weight: bold;
+}

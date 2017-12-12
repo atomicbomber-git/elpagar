@@ -1,0 +1,1 @@
+<div class="row center"> <div class="col-md-12"> <h1 class="short word-rotator-title"> Apa itu Kesbangpol?</h1> <p class="featured lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante nulla hendrerit arcu, ac tincidunt mauris lacus sed leo. vamus suscipit molestie vestibulum. </p> </div> </div>
