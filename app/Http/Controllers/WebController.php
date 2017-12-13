@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php 
 namespace App\Http\Controllers; use Illuminate\Http\Request; use Exception; use App\tampilans; use App\Gallery; use App\Slider; use App\posts; use App\pages; use App\categorys; use App\navbars; use App\sidebars; use App\comments; /* use App\pengikuts; */ use App\postcategorys; use App\organisasis; use App\homepage; use View; use URL; class WebController extends Controller {
 
