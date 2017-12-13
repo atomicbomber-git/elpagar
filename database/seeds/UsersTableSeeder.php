@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\User;
+use App\categorys;
 use App\tampilans;
 
 class UsersTableSeeder extends Seeder
@@ -19,6 +20,14 @@ class UsersTableSeeder extends Seeder
         $User->password = bcrypt('admin');
         $User->foto = null;
         $User->deskripsi = 'Admin';
+        $User->save();
+
+        $User = new categorys;
+        $User->name = 'Berita';
+        $User->save();
+
+        $User = new categorys;
+        $User->name = 'Agenda';
         $User->save();
 
         $tampilan = new tampilans;

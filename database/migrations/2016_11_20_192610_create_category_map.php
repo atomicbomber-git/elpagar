@@ -13,7 +13,7 @@ class CreateCategoryMap extends Migration
      */
     public function up()
     {
-        Schema::create('postCategorys', function (Blueprint $table) {
+        Schema::create('postcategorys', function (Blueprint $table) {
             $table->integer('id_categorys')->unsigned();
             $table->foreign('id_categorys')
                   ->references('id')
@@ -41,6 +41,6 @@ class CreateCategoryMap extends Migration
     public function down()
     {
         Schema::disableForeignKeyConstraints();
-        Schema::dropIfExists('postCategorys');
+        Schema::dropIfExists('postcategorys');
     }
 }
